@@ -535,30 +535,49 @@ The .cd-intro change the background image
 
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-td {
-    text-align: center;    
-    margin: 0;
-    padding: 0;
+
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
 }
 
-@media screen and (max-width: 500px) {    
-    .cd-container-table td {
-        display: block;
-        float: left;
-        width: 50%;
-    }
-    .cd-container-table tr,
-    .cd-container-table td:nth-child(3) {
-        float: none;      
-        width: 100%;
-    }
+td, th { 
+  padding: 6px; 
+  text-align: center; 
 }
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+/* force table to not be like tables anymore 
+*/  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+  }
+  
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+
+}
+
 
 .cd-container-icon {
   display: block;
