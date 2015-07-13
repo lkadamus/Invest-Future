@@ -607,7 +607,7 @@ only screen and (max-width: 760px),
 	color: rgba(2, 23, 37, 0.7);
 }
 
-/*.cd-container-more-about {
+.cd-container-more-about {
 	width: 100%;
 	max-width: 1280px;
 	background-color: #f9f9f9;
@@ -618,23 +618,32 @@ only screen and (max-width: 760px),
 .row {
 	margin-top: 0.2rem;
 }
-*/
+
+
+
 /* -------------------------------- 
 
 Work Thumbnails
 
 -------------------------------- */
+
+
 .cd-container-clmn-1 {
-width: 24.7%;
+  width: 24.7%;
   height: 300px;
 	margin: 0px;
   background-image: url(http://i.imgur.com/19yUIE4.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-1:hover {
 	opacity: .5;
+
 }
+
+
+
 .cd-container-clmn-2 {
 	width: 24.7%;
 	height: 300px;
@@ -642,6 +651,7 @@ width: 24.7%;
 	background-image: url(http://i.imgur.com/9qKpiuO.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-2:hover {
 	opacity: .5;
@@ -653,6 +663,7 @@ width: 24.7%;
 	background-image: url(http://i.imgur.com/AQKpJTV.png);
   background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-3:hover {
 	opacity: .5;
@@ -664,6 +675,7 @@ width: 24.7%;
   background-image: url(http://i.imgur.com/p1osTqz.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-4:hover {
 	opacity: .5;
@@ -675,6 +687,7 @@ width: 24.7%;
   background-image: url(http://i.imgur.com/1DZPI5a.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-5:hover {
 	opacity: .5;
@@ -686,6 +699,7 @@ width: 24.7%;
   background-image: url(http://i.imgur.com/tJXCYgs.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-6:hover {
 	opacity: .5;
@@ -697,6 +711,7 @@ width: 24.7%;
 	background-image: url(http://i.imgur.com/sh14ubG.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-7:hover {
 	opacity: .5;
@@ -708,6 +723,7 @@ width: 24.7%;
 	background-image: url(http://i.imgur.com/Jbjj5uD.png);
 	background-size: cover;
 	display: inline-block;
+  border: #99cc99 solid 4px;
 }
 .cd-container-clmn-8:hover {
 	opacity: .5;
