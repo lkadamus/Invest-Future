@@ -1,3 +1,48 @@
+
+/*  COLUMN STYLE  ============================================================================= */
+/*  SECTION  ============================================================================= */
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+  display: block;
+  float:left;
+  margin: 5% 1% 1% 10%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col { 
+    margin: 1% 0 1% 0%;
+  }
+}
+
+
 /* -------------------------------- 
 
 Primary style
@@ -833,116 +878,3 @@ Footer Style
 	}	
 }
 
-
-/* -------------------------------- 
-
-Social Share Style
-
--------------------------------- 
-.share-project {
-	width: 100%;
-	height: 200px;
-	margin: 0 auto;
-}
-.share-project-content {
-  width: 90%;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding-top: 70px;
-  text-align: center;
-}
-.share-btn {
-	width: 33%;
-	display: inline-block;
-    vertical-align: top;
-}
-.facebook-share {
-	display: inline-block;
-	color: #BDC3C7;
-	border: #BDC3C7 solid 1px;
-	padding: 20px 60px 20px 54px;
-	width: 250px;
-	text-transform: uppercase;
-	text-align: center;
-	background-color: white;
-	
-    -webkit-transition-property: background;
-       -moz-transition-property: background;
-         -o-transition-property: background;
-            transition-property: background;
-    -webkit-transition-duration: .2s;
-       -moz-transition-duration: .2s;
-         -o-transition-duration: .2s;
-            transition-duration: .2s;
-    -webkit-transition-timing-function: linear;
-       -moz-transition-timing-function: linear;
-         -o-transition-timing-function: linear;
-            transition-timing-function: linear;
-}
-.facebook-share:hover {
-	background-color: #3b5998;
-	border: #3b5998 solid 1px;
-	color: white;
-}
-.twitter-share {
-	display: inline-block;
-	color: #BDC3C7;
-	border: #BDC3C7 solid 1px;
-	padding: 20px 60px 20px 54px;
-	width: 250px;
-	text-transform: uppercase;
-	text-align: center;
-	background-color: white;
-	
-    -webkit-transition-property: background;
-       -moz-transition-property: background;
-         -o-transition-property: background;
-            transition-property: background;
-    -webkit-transition-duration: .2s;
-       -moz-transition-duration: .2s;
-         -o-transition-duration: .2s;
-            transition-duration: .2s;
-    -webkit-transition-timing-function: linear;
-       -moz-transition-timing-function: linear;
-         -o-transition-timing-function: linear;
-            transition-timing-function: linear;	
-}
-.twitter-share:hover {
-	background-color: #55acee;
-	border: #55acee solid 1px;
-	color: white;
-}
-.google-share {
-	display: inline-block;
-	color: #BDC3C7;
-	border: #BDC3C7 solid 1px;
-	padding: 20px 60px 20px 54px;
-	width: 250px;
-	text-transform: uppercase;
-	text-align: center;
-	background-color: white;
-	
-    -webkit-transition-property: background;
-       -moz-transition-property: background;
-         -o-transition-property: background;
-            transition-property: background;
-    -webkit-transition-duration: .2s;
-       -moz-transition-duration: .2s;
-         -o-transition-duration: .2s;
-            transition-duration: .2s;
-    -webkit-transition-timing-function: linear;
-       -moz-transition-timing-function: linear;
-         -o-transition-timing-function: linear;
-            transition-timing-function: linear;	
-}
-.google-share:hover {
-	background-color: #dd4b39;
-	border: #dd4b39 solid 1px;
-	color: white;
-}
-
-@media all and (min-width: 320px) and (max-width: 780px) {
-	.share-project {
-		display: none;
-	}	
-}
