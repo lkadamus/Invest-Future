@@ -26,10 +26,16 @@
 /*  GRID COLUMN SETUP   ==================================================================== */
 
 .col {
-  display: block;
-  float:left;
-  margin: 5% 1% 1% 10%;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 5% 5% 1% 5%;
+    vertical-align: top;
+  
 }
+
+
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
