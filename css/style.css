@@ -104,7 +104,8 @@ h1 {
 
 
 h5 {
-	font-size: 0.8rem;
+	font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 h6 {
@@ -810,15 +811,29 @@ only screen and (max-width: 760px),
 Footer Style
 
 -------------------------------- */
+hr {
+    border-top: 2px dotted #99cc99;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gogirl-bold{
+  font-weight: 400;
+  color: #8c1787;
+}
+
+.gogirl{
+  color: #8c1787;
+}
+
 .footer {
 	width: 100%;
 	height: 100px;
-	background-color: #99cc99;
 }
 
 .footer p{
   padding-left: 5%;
-  padding-top: 2%;
   font-size: 12px;
   font-weight: 400;
 }
