@@ -640,49 +640,6 @@ ul.img-list li:hover span.text-content {
 }
 
 
-
-/*table { 
-  width: 100%; 
-  border-collapse: collapse; 
-}
-
-td, th { 
-  padding: 6px; 
-  text-align: center; 
-}
-
-
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-
-/* force table to not be like tables anymore 
- table, thead, tbody, th, td, tr { 
-    display: block; 
-  }
-  
-
-  td {
-    /* Behave  like a "row" 
-    border: none;
-    position: relative;
-  }
-  
-  
-  td:before { 
-    /* Now like a table header 
-    position: absolute;
-    /* Top/left values mimic padding 
-    top: 6px;
-    left: 6px;
-    width: 45%; 
-    padding-right: 10px; 
-    white-space: nowrap;
-  }
-
-}
-*/
-
 .cd-container-icon {
   display: block;
   margin-right: auto;
@@ -690,11 +647,6 @@ only screen and (max-width: 760px),
   padding-bottom: 10%;
 }
 
-/*@media all and (min-width: 320px) and (max-width: 780px)  {
-  .ladies-icon{
-    max-width: 100%;
-  }
-}*/
 
 .ladies-icon {
   display: inline-block;
@@ -704,8 +656,7 @@ only screen and (max-width: 760px),
   width: 100%;
   max-width: 560px;
   height: auto;
-/*  position: relative;
-*/}
+}
 
 
 
@@ -744,20 +695,43 @@ only screen and (max-width: 760px),
 }
 
 
+#mc_embed_signup{
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#mc_embed_signup h3{
+    font-family: 'Open Sans', serif;
+    font-weight: 100;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
 
+.email_form{
+  text-align:center; 
+  width:50%; 
+  height:2rem;
+  border-radius: 5px;
+  border: #99cc99 solid 2px;
+}
 
 /**/
 .read-more-btn-small {
-	width: 8rem;
-	margin-top: 3em;
-	border: #000 solid 1px;
-	padding: 15px 5px 15px 5px;
-	color: rgba(2, 23, 37, 0.7);
+	width: 25%;
+  height: 2rem;
+	margin-top: 2em;
+	border: #99cc99 solid 1px;
+  border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-color: #99cc99;
+  font-family: 'Open Sans', serif;
+  font-weight: 500;
+  font-size: 1em;
 }
+
 .read-more-btn-small:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: #333443 solid 1px;
+	color: #333443; 
 }
 
 .cd-container-blog-read-posts {
@@ -806,11 +780,19 @@ only screen and (max-width: 760px),
 	
 }
 
+
+
 /* -------------------------------- 
 
 Footer Style
 
 -------------------------------- */
+.share_icons{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 hr {
     border-top: 2px dotted #99cc99;
     width: 100%;
@@ -829,11 +811,12 @@ hr {
 
 .footer {
 	width: 100%;
-	height: 100px;
+	height: auto;
+  background-color: #99cc99;
 }
 
 .footer p{
-  padding-left: 5%;
+  padding: 2% 5%;
   font-size: 12px;
   font-weight: 400;
 }
