@@ -689,6 +689,7 @@ ul.img-list li:hover span.text-content {
 
 
 #mc_embed_signup{
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
